@@ -22,7 +22,7 @@
     <meta name="twitter:title" content="EXCORDER — Extended Sensing for iPhone">
     <meta name="twitter:description" content="Turn your iPhone into a pocket field scanner.">
     <meta name="twitter:image" content="https://northfoxjp.github.io/excorder/assets/og/excorder-og.png">
-    <link rel="stylesheet" href="landing.css?v=20260901-2">
+    <link rel="stylesheet" href="landing.css?v=20260901-3">
     <script src="landing.js" defer></script>
 </head>
 <body>
@@ -67,13 +67,31 @@
                 <h2 data-lang="en">Real data. One unified display.</h2><h2 data-lang="ja" hidden>リアルなデータを、ひとつの画面へ。</h2>
                 <p data-lang="en">Move through imaging, navigation, and acoustic views designed to keep live measurements legible at a glance.</p><p data-lang="ja" hidden>イメージング、ナビゲーション、音響の各画面で、ライブ計測値をひと目で確認できます。</p>
             </div>
-            <div class="screenshot-rail reveal" role="region" aria-label="EXCORDER screenshots" tabindex="0">
-                <figure class="shot shot--featured"><div class="shot-media"><img src="assets/screenshots/overview.png" alt="EXCORDER Overview screen" width="1284" height="2778" loading="lazy"></div><figcaption>Overview</figcaption></figure>
-                <figure class="shot"><div class="shot-media"><img src="assets/screenshots/imaging-1.png" alt="EXCORDER rear imaging screen" width="1284" height="2778" loading="lazy"></div><figcaption>Rear Imaging</figcaption></figure>
-                <figure class="shot"><div class="shot-media"><img src="assets/screenshots/imaging-2.png" alt="EXCORDER imaging screen with simulated camera spectrum" width="1284" height="2778" loading="lazy"></div><figcaption>Imaging Detail</figcaption></figure>
-                <figure class="shot"><div class="shot-media"><img src="assets/screenshots/navigation-1.png" alt="EXCORDER navigation and environmental readings screen" width="1284" height="2778" loading="lazy"></div><figcaption>Navigation</figcaption></figure>
-                <figure class="shot"><div class="shot-media"><img src="assets/screenshots/navigation-2.png" alt="EXCORDER magnetic field, acceleration, and vibration screen" width="1284" height="2778" loading="lazy"></div><figcaption>Motion &amp; Field</figcaption></figure>
-                <figure class="shot"><div class="shot-media"><img src="assets/screenshots/audio.png" alt="EXCORDER acoustic analysis screen" width="1284" height="2778" loading="lazy"></div><figcaption>Acoustic</figcaption></figure>
+            <div class="screenshot-rail reveal" role="region" aria-label="EXCORDER screenshots and screen descriptions" tabindex="0">
+                <figure class="shot shot--featured">
+                    <div class="shot-media"><img src="assets/screenshots/overview.png" alt="EXCORDER Overview screen" width="1284" height="2778" loading="lazy"></div>
+                    <figcaption><span class="shot-code">OVERVIEW</span><strong data-lang="en">All sensors at a glance</strong><strong data-lang="ja" hidden>すべてのセンサーを一覧</strong><p data-lang="en">Combines rear imaging, a simulated camera spectrum, map and environmental readings, plus acoustic analysis in one scrollable display. Tap a section to open its detailed screen.</p><p data-lang="ja" hidden>背面カメラ、カメラ疑似スペクトラム、地図・環境情報、音響解析をひとつのスクロール画面に集約。各セクションをタップすると詳細画面へ移動します。</p></figcaption>
+                </figure>
+                <figure class="shot">
+                    <div class="shot-media"><img src="assets/screenshots/imaging-1.png" alt="EXCORDER rear imaging screen" width="1284" height="2778" loading="lazy"></div>
+                    <figcaption><span class="shot-code">IMAGE / 01</span><strong data-lang="en">Rear imaging</strong><strong data-lang="ja" hidden>リア・イメージング</strong><p data-lang="en">Shows the live rear-camera view with animated targeting brackets, device vertical angle, azimuth, and an approximate center distance on supported LiDAR-equipped iPhones.</p><p data-lang="ja" hidden>背面カメラのライブ映像に、アニメーション照準、端末の垂直角、方位を重ねます。LiDAR対応iPhoneでは画面中央までの概算距離も表示します。</p></figcaption>
+                </figure>
+                <figure class="shot">
+                    <div class="shot-media"><img src="assets/screenshots/imaging-2.png" alt="EXCORDER imaging screen with simulated camera spectrum" width="1284" height="2778" loading="lazy"></div>
+                    <figcaption><span class="shot-code">IMAGE / 02</span><strong data-lang="en">Camera spectrum</strong><strong data-lang="ja" hidden>カメラ疑似スペクトラム</strong><p data-lang="en">Expands the color around the camera's center into a live 32-band, 400–700 nm visualization. It is simulated from RGB values and is not a physical spectrometer reading.</p><p data-lang="ja" hidden>カメラ中央付近の色を、400〜700 nm・32帯域のグラフとしてリアルタイム表示します。RGB値から生成する疑似表示であり、分光器による実測値ではありません。</p></figcaption>
+                </figure>
+                <figure class="shot">
+                    <div class="shot-media"><img src="assets/screenshots/navigation-1.png" alt="EXCORDER navigation and environmental readings screen" width="1284" height="2778" loading="lazy"></div>
+                    <figcaption><span class="shot-code">NAV / 01</span><strong data-lang="en">Position &amp; environment</strong><strong data-lang="ja" hidden>位置・環境情報</strong><p data-lang="en">Displays your current position on a map, latitude, longitude, heading, GPS altitude, local temperature and humidity, atmospheric pressure, and barometric relative altitude.</p><p data-lang="ja" hidden>地図上の現在地、緯度・経度、方位、GPS高度、周辺の気温・湿度、気圧、気圧計による相対高度を表示します。</p></figcaption>
+                </figure>
+                <figure class="shot">
+                    <div class="shot-media"><img src="assets/screenshots/navigation-2.png" alt="EXCORDER magnetic field, acceleration, and vibration screen" width="1284" height="2778" loading="lazy"></div>
+                    <figcaption><span class="shot-code">NAV / 02</span><strong data-lang="en">Magnetic field &amp; motion</strong><strong data-lang="ja" hidden>磁場・モーション</strong><p data-lang="en">Visualizes three-axis magnetic readings, total strength, vector direction, and a 3D projection. Magnetic strength is shown in µT (microteslas); 1 µT is one millionth of a tesla. A 100 Hz acceleration trace and 0–50 Hz vibration spectrum reveal peak frequency and amplitude.</p><p data-lang="ja" hidden>3軸磁場、合成強度、ベクトル方向を数値と3D投影で可視化。磁場の強さはµT（マイクロテスラ）で表示し、1 µTは100万分の1テスラです。100 Hzの加速度波形と0〜50 Hzの振動スペクトラムから、ピーク周波数と振幅も確認できます。</p></figcaption>
+                </figure>
+                <figure class="shot">
+                    <div class="shot-media"><img src="assets/screenshots/audio.png" alt="EXCORDER acoustic analysis and voice decode screen" width="1284" height="2778" loading="lazy"></div>
+                    <figcaption><span class="shot-code">AUDIO</span><strong data-lang="en">Acoustic &amp; voice decode</strong><strong data-lang="ja" hidden>音響解析・音声デコード</strong><p data-lang="en">Shows relative microphone level in dBFS, a 40 Hz–16 kHz spectrum, and adjustable digital boost. Voice Decode adds live transcription in four languages and translation on supported iOS versions.</p><p data-lang="ja" hidden>マイクの相対レベル（dBFS）、40 Hz〜16 kHzのスペクトラム、デジタルブーストを表示。音声デコードでは4言語のライブ文字起こしと、対応iOSでの翻訳を利用できます。</p></figcaption>
+                </figure>
             </div>
             <p class="swipe-note" data-lang="en">Swipe to explore screens →</p><p class="swipe-note" data-lang="ja" hidden>横にスワイプして画面を見る →</p>
         </section>
@@ -83,7 +101,7 @@
             <div class="capability-grid">
                 <article class="capability-card reveal accent-red"><span class="card-code">IMG.01</span><h3 data-lang="en">Imaging &amp; Range</h3><h3 data-lang="ja" hidden>画像・距離</h3><p data-lang="en">See a live rear-camera view with azimuth, vertical angle, approximate center distance on supported LiDAR devices, and an RGB-derived simulated spectrum.</p><p data-lang="ja" hidden>背面カメラ映像に方位・垂直角を表示。対応するLiDAR搭載機種では中央の概算距離と、RGB由来の疑似スペクトラムも確認できます。</p></article>
                 <article class="capability-card reveal accent-blue"><span class="card-code">NAV.02</span><h3 data-lang="en">Location &amp; Environment</h3><h3 data-lang="ja" hidden>位置・環境</h3><p data-lang="en">View your position, coordinates, heading, GPS altitude, atmospheric pressure, relative altitude, and local weather context.</p><p data-lang="ja" hidden>現在地、座標、方位、GPS高度、気圧、相対高度、周辺の気象情報を表示します。</p></article>
-                <article class="capability-card reveal accent-purple"><span class="card-code">MAG.03</span><h3 data-lang="en">Magnetic Field</h3><h3 data-lang="ja" hidden>磁場</h3><p data-lang="en">Explore three-axis magnetic-field readings, total field strength, vector azimuth and elevation, plus a live 3D projection.</p><p data-lang="ja" hidden>3軸の磁場、合成磁場強度、ベクトル方位・仰角を取得し、3D投影で可視化します。</p></article>
+                <article class="capability-card reveal accent-purple"><span class="card-code">MAG.03</span><h3 data-lang="en">Magnetic Field</h3><h3 data-lang="ja" hidden>磁場</h3><p data-lang="en">Explore three-axis magnetic-field readings, total field strength, vector azimuth and elevation, plus a live 3D projection. Field strength is measured in µT (microteslas), where 1 µT equals one millionth of a tesla.</p><p data-lang="ja" hidden>3軸の磁場、合成磁場強度、ベクトル方位・仰角を取得し、3D投影で可視化します。磁場の強さを表す単位はµT（マイクロテスラ）で、1 µTは100万分の1テスラです。</p></article>
                 <article class="capability-card reveal accent-orange"><span class="card-code">MOT.04</span><h3 data-lang="en">Motion &amp; Vibration</h3><h3 data-lang="ja" hidden>モーション・振動</h3><p data-lang="en">Follow 100 Hz three-axis acceleration and inspect a 0–50 Hz vibration spectrum with peak frequency and amplitude.</p><p data-lang="ja" hidden>100 Hzの3軸加速度を追跡し、0〜50 Hzの振動スペクトラム、ピーク周波数、振幅を確認できます。</p></article>
                 <article class="capability-card reveal accent-pink"><span class="card-code">AUD.05</span><h3 data-lang="en">Acoustic Analysis</h3><h3 data-lang="ja" hidden>音響解析</h3><p data-lang="en">Visualize relative microphone level in dBFS and a live 32-band spectrum from 40 Hz to 16 kHz, with adjustable digital boost.</p><p data-lang="ja" hidden>マイク入力の相対レベル（dBFS）と40 Hz〜16 kHz・32帯域のスペクトラムを、デジタルブースト付きで表示します。</p></article>
                 <article class="capability-card reveal accent-cyan"><span class="card-code">VOC.06</span><h3 data-lang="en">Voice Decode</h3><h3 data-lang="ja" hidden>音声デコード</h3><p data-lang="en">Transcribe Japanese, English, Spanish, or Korean live, with translation on supported iOS versions.</p><p data-lang="ja" hidden>日本語、英語、スペイン語、韓国語をライブ文字起こし。対応するiOSでは翻訳も利用できます。</p></article>
