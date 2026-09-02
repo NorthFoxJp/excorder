@@ -78,6 +78,9 @@ h1 { margin-bottom: 22px; font-size: clamp(3.7rem, 9.5vw, 8.4rem); font-weight: 
 .app-store-button small { font-size: 0.62rem; line-height: 1.1; }
 .app-store-button strong { font-size: 1.34rem; line-height: 1.1; }
 .apple-mark { width: 24px; height: 29px; border-radius: 48% 48% 52% 52%; font-size: 0; background: #05070a; clip-path: polygon(18% 23%, 44% 17%, 53% 4%, 70% 0, 68% 14%, 57% 23%, 82% 26%, 96% 43%, 88% 74%, 70% 100%, 54% 92%, 36% 100%, 16% 83%, 3% 54%, 9% 34%); }
+.video-link { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 10px 18px; border: 1px solid #ff4e58; border-radius: 13px; background: rgba(255, 33, 46, 0.1); color: #fff; font-size: 0.82rem; font-weight: 850; letter-spacing: 0.06em; text-decoration: none; text-transform: uppercase; transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease; }
+.video-link:hover { transform: translateY(-2px); background: rgba(255, 33, 46, 0.2); color: #fff; box-shadow: 0 12px 34px rgba(255, 33, 46, 0.18); }
+.play-mark { display: grid; width: 28px; height: 28px; place-items: center; border-radius: 50%; background: #ff2130; color: #fff; font-size: 0.65rem; line-height: 1; }
 .text-link { color: var(--cyan); font-size: 0.85rem; font-weight: 850; letter-spacing: 0.08em; text-underline-offset: 5px; text-transform: uppercase; }
 .availability-note { margin: 10px 0 0; color: #758996; font-size: 0.72rem; }
 
