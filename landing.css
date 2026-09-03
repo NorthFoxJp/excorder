@@ -69,6 +69,13 @@ h1, h2, h3, p { margin-top: 0; }
 h1 { margin-bottom: 22px; font-size: clamp(3.7rem, 9.5vw, 8.4rem); font-weight: 950; letter-spacing: -0.065em; line-height: 0.82; text-shadow: 0 0 44px rgba(140, 232, 241, 0.1); }
 .hero-title { max-width: 730px; margin-bottom: 20px; font-size: clamp(1.9rem, 4vw, 3.45rem); font-weight: 760; letter-spacing: -0.035em; line-height: 1.05; text-wrap: balance; }
 .hero-lead { max-width: 610px; margin-bottom: 31px; color: #b5cbd8; font-size: clamp(1.05rem, 1.7vw, 1.28rem); }
+.launch-offer { width: fit-content; max-width: 100%; margin: 0 0 28px; padding: 15px 20px 13px; border: 1px solid rgba(244, 239, 85, 0.5); border-left: 7px solid var(--yellow); border-radius: 5px 18px 5px 5px; background: linear-gradient(110deg, rgba(244, 239, 85, 0.12), rgba(255, 156, 51, 0.05)); box-shadow: 0 13px 35px rgba(0, 0, 0, 0.22); }
+.launch-offer-label { display: block; margin-bottom: 5px; color: var(--yellow); font: 900 0.64rem/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.16em; text-transform: uppercase; }
+.launch-offer-price { display: flex; align-items: baseline; gap: 16px; }
+.launch-offer-price strong { color: #fff; font-size: clamp(1.8rem, 3.5vw, 2.6rem); line-height: 1.1; }
+.launch-offer-price span { color: #c8d7df; font-size: 0.8rem; font-weight: 750; line-height: 1.5; }
+.launch-offer-price s { color: #8ea1ad; }
+.launch-offer small { display: block; margin-top: 5px; color: #718692; font-size: 0.65rem; }
 .hero-actions { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
 .app-store-button { display: inline-flex; align-items: center; gap: 12px; min-height: 62px; padding: 9px 22px; border: 1px solid #61798a; border-radius: 15px; background: #f3f7f8; color: #05070a; text-decoration: none; box-shadow: 0 10px 40px rgba(74, 175, 229, 0.12); transition: transform 180ms ease, box-shadow 180ms ease; }
 .app-store-button:hover { transform: translateY(-2px); box-shadow: 0 14px 46px rgba(74, 175, 229, 0.22); }
@@ -148,6 +155,9 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
 
 .final-cta { margin: 50px 0 110px; padding: clamp(42px, 8vw, 86px); border: 1px solid #354452; border-radius: 42px 8px 42px 8px; background: radial-gradient(circle at 100% 0, rgba(236,135,184,.16), transparent 38%), linear-gradient(135deg, #101b27, #080c12); text-align: center; }
 .final-cta h2 { max-width: 900px; margin-inline: auto; }
+.cta-price { width: fit-content; max-width: 100%; margin: 26px auto 4px; padding: 10px 17px; border: 1px solid rgba(244, 239, 85, 0.35); border-radius: 999px; background: rgba(244, 239, 85, 0.08); color: #c8d7df; font-size: 0.82rem; }
+.cta-price strong { color: var(--yellow); }
+.cta-price span { color: #8295a1; }
 .final-cta .app-store-button { margin-top: 18px; }
 .footer { display: grid; grid-template-columns: 1fr auto; gap: 30px; padding: 40px 0 48px; border-top: 1px solid var(--line); }
 .footer-brand { display: flex; flex-direction: column; }
@@ -181,6 +191,7 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
     .hero { gap: 50px; padding: 54px 0 70px; }
     h1 { font-size: clamp(3.25rem, 18vw, 5.1rem); }
     .hero-title { font-size: clamp(1.85rem, 9.5vw, 2.75rem); }
+    .launch-offer-price { align-items: flex-start; flex-direction: column; gap: 4px; }
     .hero-actions { align-items: flex-start; flex-direction: column; gap: 18px; }
     .hero-instrument { width: 88vw; max-width: 390px; }
     .signal-strip { margin-inline: -12px; }
@@ -193,6 +204,8 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
     .sensor-diagram { width: 88vw; }
     .audience-grid { grid-template-columns: 1fr; }
     .final-cta { margin-bottom: 80px; padding-inline: 22px; }
+    .cta-price { border-radius: 18px; }
+    .cta-price span { display: block; margin-top: 2px; }
     .footer { grid-template-columns: 1fr; }
     .footer nav { flex-wrap: wrap; }
 }
