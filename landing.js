@@ -1,7 +1,6 @@
 document.documentElement.classList.add("js");
 
-/* Replace the empty string with the final App Store URL when it is available. */
-const APP_STORE_URL = "";
+const APP_STORE_URL = "https://apps.apple.com/app/id6806745218";
 
 const languageButtons = document.querySelectorAll("[data-language-button]");
 const languageContent = document.querySelectorAll("[data-lang]");
