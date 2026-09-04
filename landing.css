@@ -144,6 +144,25 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
 .spectrum-bars i:nth-child(3n) { height: 68%; background: var(--purple); } .spectrum-bars i:nth-child(4n) { height: 88%; background: var(--pink); } .spectrum-bars i:nth-child(5n) { height: 55%; background: var(--orange); } .spectrum-bars i:nth-child(7n) { height: 100%; background: var(--yellow); }
 .spectrum-panel p { margin: 15px 0 0; color: #70838f; font-size: 0.65rem; }
 
+.history-section { display: grid; grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr); gap: clamp(46px, 9vw, 120px); align-items: start; }
+.history-heading { position: sticky; top: 42px; }
+.history-heading h2 { margin-bottom: 38px; }
+.history-timeline { display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; max-width: 390px; }
+.history-timeline span { display: flex; flex-direction: column; }
+.history-timeline b { color: var(--text); font: 900 1.08rem/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.08em; }
+.history-timeline small { margin-top: 7px; color: var(--orange); font: 900 0.52rem/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.14em; }
+.history-timeline i { position: relative; height: 1px; background: linear-gradient(90deg, var(--orange), var(--cyan)); }
+.history-timeline i::before, .history-timeline i::after { position: absolute; top: 50%; width: 7px; height: 7px; border-radius: 50%; background: currentColor; content: ""; transform: translateY(-50%); }
+.history-timeline i::before { left: 0; color: var(--orange); }
+.history-timeline i::after { right: 0; color: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
+.history-story { max-width: 680px; padding: clamp(27px, 5vw, 54px); border: 1px solid #2c3e4c; border-left: 7px solid var(--orange); border-radius: 6px 34px 6px 6px; background: linear-gradient(145deg, rgba(255,156,51,.06), transparent 28%), var(--panel); }
+.history-story p { margin-bottom: 1.35em; color: #b2c5d1; font-size: 1rem; line-height: 1.82; }
+.history-story cite { font-style: italic; }
+.history-story .history-lead { color: var(--text); font-size: clamp(1.28rem, 2.4vw, 1.75rem); font-weight: 800; line-height: 1.35; }
+.history-story .history-manifesto { padding-left: 20px; border-left: 2px solid var(--purple); color: var(--purple); font: 850 clamp(1.05rem, 2vw, 1.32rem)/1.65 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.03em; }
+.history-story blockquote { margin: 31px 0; color: var(--cyan); font-size: clamp(1.28rem, 2.7vw, 1.82rem); font-weight: 780; letter-spacing: -0.02em; line-height: 1.4; }
+.history-signoff { display: flex; justify-content: space-between; gap: 18px; margin: 45px 0 0 !important; padding-top: 20px; border-top: 1px solid var(--line); color: var(--orange) !important; font: 900 0.68rem/1.3 ui-monospace, SFMono-Regular, Menlo, monospace !important; letter-spacing: 0.11em; }
+
 .audience-section .section-heading { margin-bottom: 30px; }
 .audience-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .audience-grid > span { display: flex; align-items: center; gap: 15px; min-height: 74px; padding: 16px 20px; border-radius: 4px 17px 4px 17px; background: var(--panel-2); }
@@ -172,8 +191,9 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
     .hero-copy { max-width: 700px; }
     .hero-instrument { width: min(78vw, 430px); margin-inline: auto; }
     .capability-grid { grid-template-columns: repeat(2, 1fr); }
-    .sensor-section, .science-section { grid-template-columns: 1fr; }
+    .sensor-section, .science-section, .history-section { grid-template-columns: 1fr; }
     .sensor-diagram { width: min(80vw, 440px); margin-inline: auto; }
+    .history-heading { position: static; }
     .audience-grid { grid-template-columns: repeat(2, 1fr); }
     .screenshot-rail { grid-auto-columns: minmax(235px, 42%); }
 }
@@ -199,6 +219,9 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
     .capability-grid { grid-template-columns: 1fr; }
     .capability-card { min-height: 0; }
     .sensor-diagram { width: 88vw; }
+    .history-section { gap: 34px; }
+    .history-story { padding: 26px 22px; }
+    .history-signoff { align-items: flex-start; flex-direction: column; }
     .audience-grid { grid-template-columns: 1fr; }
     .final-cta { margin-bottom: 80px; padding-inline: 22px; }
     .cta-price { border-radius: 18px; }
