@@ -349,6 +349,13 @@ li {
     white-space: nowrap;
 }
 
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 720px) {
     .site-header,
     main,
@@ -403,6 +410,10 @@ li {
         align-items: flex-start;
         flex-direction: column;
     }
+
+    .footer-links {
+        justify-content: flex-start;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -410,4 +421,3 @@ li {
         scroll-behavior: auto;
     }
 }
-

@@ -180,7 +180,7 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
 .footer-brand { display: flex; flex-direction: column; }
 .footer-brand strong { letter-spacing: 0.16em; }
 .footer-brand span { margin-top: 5px; color: var(--purple); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; }
-.footer nav { display: flex; gap: 24px; }
+.footer nav { display: flex; justify-content: flex-end; gap: 12px 24px; flex-wrap: wrap; }
 .footer nav a { color: var(--muted); font-size: 0.78rem; text-underline-offset: 4px; }
 .footer-meta { grid-column: 1 / -1; color: #6e818c; font-size: 0.68rem; }
 .footer-meta p { margin-bottom: 5px; }
@@ -228,7 +228,7 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
     .cta-price { border-radius: 18px; }
     .cta-price span { display: block; margin-top: 2px; }
     .footer { grid-template-columns: 1fr; }
-    .footer nav { flex-wrap: wrap; }
+    .footer nav { justify-content: flex-start; }
 }
 
 @media (prefers-reduced-motion: reduce) {
