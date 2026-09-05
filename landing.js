@@ -1,11 +1,7 @@
 document.documentElement.classList.add("js");
 
-const APP_STORE_URL = "https://apps.apple.com/app/id6806745218";
-
 const languageButtons = document.querySelectorAll("[data-language-button]");
 const languageContent = document.querySelectorAll("[data-lang]");
-const appStoreLinks = document.querySelectorAll("[data-app-store-link]");
-const appStoreStatus = document.querySelectorAll("[data-app-store-status]");
 
 function setLanguage(language) {
     document.documentElement.lang = language;
@@ -14,19 +10,6 @@ function setLanguage(language) {
 }
 
 languageButtons.forEach((button) => { button.addEventListener("click", () => setLanguage(button.dataset.languageButton)); });
-
-appStoreLinks.forEach((link) => {
-    if (APP_STORE_URL) {
-        link.href = APP_STORE_URL;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-    } else {
-        link.setAttribute("aria-disabled", "true");
-        link.addEventListener("click", (event) => event.preventDefault());
-    }
-});
-
-if (APP_STORE_URL) appStoreStatus.forEach((status) => status.remove());
 
 const revealElements = document.querySelectorAll(".reveal");
 if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {

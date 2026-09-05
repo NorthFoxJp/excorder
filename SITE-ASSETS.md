@@ -2,7 +2,7 @@
 
 ## App Store URL
 
-Set `APP_STORE_URL` near the top of `landing.js`. Leave it as an empty string before release; the buttons remain visible but disabled and show a short “coming soon” note.
+The App Store links are set directly in `index.html` so they work even before JavaScript loads. If the listing URL changes, update both links there.
 
 ## App Store badges
 
@@ -22,4 +22,4 @@ Replace `assets/icons/excorder-icon.png` if the app icon changes.
 
 ## English and Japanese text
 
-Marketing copy is in `index.html`. English elements use `data-lang="en"`; Japanese elements use `data-lang="ja"`. Keep paired content equivalent. Language switching and the App Store setting live in `landing.js`.
+Marketing copy is in `index.html`. English elements use `data-lang="en"`; Japanese elements use `data-lang="ja"`. Keep paired content equivalent. Language switching lives in `landing.js`.
