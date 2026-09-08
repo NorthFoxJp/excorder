@@ -204,7 +204,7 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 5vw, 4.3rem); letter-spacing: -
     .topbar { align-items: flex-start; padding-block: 17px; }
     .wordmark small { max-width: 145px; }
     .topnav { gap: 10px; }
-    .topnav > a:first-child { display: none; }
+    .topnav > a:nth-child(-n + 2) { display: none; }
     .topnav > a { font-size: 0.65rem; }
     .hero { gap: 50px; padding: 54px 0 70px; }
     h1 { font-size: clamp(3.25rem, 18vw, 5.1rem); }
