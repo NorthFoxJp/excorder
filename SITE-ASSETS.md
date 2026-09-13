@@ -10,7 +10,7 @@ The localized white alternative badges in `assets/badges/` are unmodified SVG ar
 
 ## Screenshots
 
-Place replacement PNG or JPEG files in `assets/screenshots/` and update the matching `src` values in `index.html`. The current page uses `overview.png`, `imaging-1.png`, `imaging-2.png`, `navigation-1.png`, `navigation-2.png`, and `audio.png`. Screenshots are displayed as supplied; CSS only styles their layout and surrounding frame.
+Place replacement PNG or JPEG files in `assets/screenshots/` and update the matching `src` values in `index.html`. The current page uses `overview.png`, `imaging-1.png`, `imaging-2.png`, `navigation-1.png`, `navigation-2.png`, `audio.png`, and `DETECTED.png`. `DETECTED.png` is the BIO SCAN capture supplied in `プロモーション/BIOモード/DETECTED.png`. Screenshots are displayed as supplied; CSS only styles their layout and surrounding frame.
 
 ## Open Graph / X image
 
