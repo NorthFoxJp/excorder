@@ -72,7 +72,7 @@ Inspect three-axis magnetic field readings, total strength in µT, vector direct
 
 **GPS & Barometer**
 
-See your position on a map, coordinates and GPS altitude. The barometer provides air pressure and relative altitude changes. Local temperature and humidity come from the Open-Meteo weather service, not from built-in temperature or humidity sensors.
+See your position on a map, coordinates and GPS altitude. The barometer provides air pressure and relative altitude changes. Local temperature and humidity come from the MET Norway weather service, not from built-in temperature or humidity sensors.
 
 **Accelerometer & Device Motion**
 
@@ -131,7 +131,7 @@ iPhoneの磁気センサーから得られる3軸の磁場、合成強度（µT�
 
 **GPS・気圧計**
 
-地図上の現在地、緯度・経度、GPS高度を確認できます。気圧計は気圧と相対高度の変化を表示します。周辺の気温・湿度はOpen-Meteoの気象情報であり、iPhone内蔵の温度・湿度センサーによる実測ではありません。
+地図上の現在地、緯度・経度、GPS高度を確認できます。気圧計は気圧と相対高度の変化を表示します。周辺の気温・湿度はMET Norwayの気象情報であり、iPhone内蔵の温度・湿度センサーによる実測ではありません。
 
 **加速度センサー・端末の姿勢**
 
@@ -160,7 +160,7 @@ iPhoneの磁気センサーから得られる3軸の磁場、合成強度（µT�
 - sitemapは6URL。英日LPのlastmodは2026-09-10。hreflangはHTMLで指定しているためsitemapで重複管理しない。
 - robots.txtは追加しない。GitHub Pagesのプロジェクト配下 `/excorder/robots.txt` はドメイン直下のrobots.txtの代わりにならない。現在はrobotsによるクロール禁止がなく、index/followは既定動作なので冗長なmeta robotsも追加しない。
 - ジャイロスコープは独立した角速度計表示とは説明せず、Core Motionが統合する姿勢情報として説明。MotionService.swiftのdevice motion / gravity / attitudeと整合。
-- 温湿度はCurrentWeatherService.swiftで確認したOpen-Meteo由来。LiDARの機種制限、RGB疑似スペクトラム、dBFSの相対値も明記。
+- 温湿度はCurrentWeatherService.swiftで確認したMET Norway由来。LiDARの機種制限、RGB疑似スペクトラム、dBFSの相対値も明記。
 - 既存日本語の「画像・距離」カードも、RGB疑似スペクトラムがLiDAR必須と読めない表現へ訂正。
 
 ## ターゲット検索意図への対応
