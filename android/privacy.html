@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Android版EXCORDERのプライバシーポリシーです。権限、センサー情報、位置情報、音声認識、保存データ、外部サービスへの送信について説明します。">
+    <meta name="theme-color" content="#000000">
+    <link rel="canonical" href="https://northfoxjp.github.io/excorder/android/privacy.html">
+    <title>EXCORDER Android Privacy Policy</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">本文へ移動 / Skip to content</a>
+
+    <header class="site-header">
+        <div class="brand-bar" aria-label="EXCORDER">
+            <div class="brand">
+                <span class="brand-name">EXCORDER</span>
+                <span class="brand-tagline">Extended Sensing for Android</span>
+            </div>
+        </div>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../support.html">Support</a>
+            <a href="../privacy.html">iOS Privacy Policy</a>
+            <a href="privacy.html" aria-current="page">Android Privacy Policy</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero" aria-labelledby="page-title">
+            <p class="eyebrow">Android data handling protocol</p>
+            <h1 id="page-title">EXCORDER Android<br>Privacy Policy</h1>
+            <p class="lead">Android版EXCORDERにおける、情報、端末権限、外部サービスの取り扱いについて説明します。<br>This policy explains how EXCORDER for Android handles information, device permissions, and external services.</p>
+            <p class="policy-meta">最終更新日: 2026年10月2日 / Last updated: October 2, 2026</p>
+        </section>
+
+        <section class="section section--blue" aria-labelledby="summary-title">
+            <div class="section-content">
+                <h2 class="section-heading" id="summary-title">基本方針 / Our Approach</h2>
+                <div class="bilingual-grid">
+                    <article class="language-card" lang="ja">
+                        <p class="language-label">日本語</p>
+                        <p>Android版EXCORDERは、カメラ、センサー、音声等の測定・解析データを原則として端末内でリアルタイム処理します。開発者が運営するサーバーへ測定データを送信しません。広告SDKや独自のアクセス解析SDKを組み込まず、広告目的のトラッキング、個人情報の販売を行いません。</p>
+                        <p>ただし、地図、気象、音声認識、言語モデル、AR機能、購入確認を利用すると、後述するGoogle、MET Norway、または端末で選択されている音声認識サービスとの通信が発生します。</p>
+                    </article>
+                    <article class="language-card" lang="en">
+                        <p class="language-label">English</p>
+                        <p>EXCORDER for Android processes camera, sensor, audio, and other measurement or analysis data primarily on the device in real time. Measurement data is not sent to a server operated by the developer. The app contains no advertising SDK or developer-operated analytics SDK and does not track users for advertising or sell personal information.</p>
+                        <p>Using maps, weather, speech recognition, language models, AR features, or purchase verification does, however, involve communication with Google, MET Norway, or the speech-recognition service selected on the device, as described below.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--orange" aria-labelledby="permissions-title">
+            <div class="section-content">
+                <h2 class="section-heading" id="permissions-title">端末権限と利用目的 / Permissions &amp; Purposes</h2>
+                <div class="bilingual-grid">
+                    <article class="language-card" lang="ja">
+                        <p class="language-label">日本語</p>
+                        <p>対応端末と利用する機能に応じて、Android版EXCORDERは次の権限またはシステム上の同意を求めます。</p>
+                        <ul class="plain-list">
+                            <li><strong>カメラ:</strong> 背面映像、RGB疑似スペクトラム、対応端末でのARCore深度、BIO SCANの顔輪郭・人体姿勢表示</li>
+                            <li><strong>正確またはおおよその位置情報:</strong> 現在地、緯度・経度、GPS高度、方位、Google Maps、現在地周辺の気象情報</li>
+                            <li><strong>マイク:</strong> 音量・周波数解析、音声認識、ユーザーが開始した画面録画へのマイク音声収録</li>
+                            <li><strong>付近のデバイス／Bluetooth:</strong> BIO SCANでのBluetooth Low Energy機器の検出数と信号強度の変化</li>
+                            <li><strong>画面共有:</strong> ユーザーがRECORDを開始した場合の画面録画。Androidの確認画面で毎回同意が必要です。</li>
+                            <li><strong>インターネットとネットワーク状態:</strong> 地図、気象、音声認識または言語モデルの取得、Google Playでの購入確認</li>
+                        </ul>
+                        <p>許可しない機能は利用できない場合がありますが、それ以外の対応機能は引き続き利用できます。本アプリは連絡先、カレンダー、通話履歴、SMS、広告IDへのアクセスを要求しません。</p>
+                    </article>
+                    <article class="language-card" lang="en">
+                        <p class="language-label">English</p>
+                        <p>Depending on the device and features used, EXCORDER for Android requests the following permissions or system consent:</p>
+                        <ul class="plain-list">
+                            <li><strong>Camera:</strong> rear-camera view, RGB-derived simulated spectrum, ARCore depth on supported devices, and BIO SCAN face-contour and body-pose display</li>
+                            <li><strong>Precise or approximate location:</strong> current position, coordinates, GPS altitude, heading, Google Maps, and local weather</li>
+                            <li><strong>Microphone:</strong> level and frequency analysis, speech recognition, and microphone audio in a screen recording started by the user</li>
+                            <li><strong>Nearby devices / Bluetooth:</strong> the number of detected Bluetooth Low Energy devices and changes in signal strength in BIO SCAN</li>
+                            <li><strong>Screen sharing:</strong> screen recording when the user starts RECORD. Android system consent is required each time.</li>
+                            <li><strong>Internet and network state:</strong> maps, weather, speech recognition or language-model downloads, and Google Play purchase verification</li>
+                        </ul>
+                        <p>A feature may be unavailable if its permission is denied, while other supported features remain usable. The app does not request access to contacts, calendars, call history, SMS, or the advertising ID.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--peach" aria-labelledby="camera-title">
+            <div class="section-content">
+                <h2 class="section-heading" id="camera-title">カメラ・顔・姿勢・AR / Camera, Face, Pose &amp; AR</h2>
+                <div class="bilingual-grid">
+                    <article class="language-card" lang="ja">
+                        <p class="language-label">日本語</p>
+                        <p>BIO SCANでは、前面カメラのフレームをGoogle ML Kitの顔輪郭検出と人体姿勢検出で端末内処理し、輪郭、姿勢、検出状態をリアルタイム表示します。本人確認、個人識別、顔認証、健康状態の判定には使用しません。</p>
+                        <p>対応端末では、ARCoreをカメラの深度表示と磁場方向推定のために使用します。カメラフレーム、深度、顔輪郭、姿勢点、AR位置は一時メモリで処理し、検出履歴として保存せず、開発者のサーバーへ送信しません。</p>
+                        <p>Google ML KitおよびGoogle Play開発者サービス（AR）のSDKやシステムコンポーネントは、サービス提供、診断、利用状況分析、コンポーネントの導入・更新のため、後述する技術情報をGoogleへ送信する場合があります。EXCORDERが顔画像、顔輪郭、姿勢点、AR映像をGoogleへアップロードする処理は実装していません。</p>
+                    </article>
+                    <article class="language-card" lang="en">
+                        <p class="language-label">English</p>
+                        <p>In BIO SCAN, front-camera frames are processed on the device by Google ML Kit face-contour and body-pose detection to display contours, poses, and detection state in real time. They are not used for identity verification, personal identification, facial authentication, or health assessment.</p>
+                        <p>On supported devices, ARCore is used for camera-depth display and magnetic-field direction estimation. Camera frames, depth, face contours, pose landmarks, and AR positions are processed in temporary memory, are not retained as detection history, and are not sent to the developer’s server.</p>
+                        <p>Google ML Kit and Google Play Services for AR SDK or system components may send technical information to Google for service delivery, diagnostics, usage analytics, and component installation or updates, as described below. EXCORDER does not implement any upload of face images, face contours, pose landmarks, or AR imagery to Google.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--lavender" aria-labelledby="storage-title">
+            <div class="section-content">
+                <h2 class="section-heading" id="storage-title">端末内処理・保存 / On-device Processing &amp; Storage</h2>
+                <div class="bilingual-grid">
+                    <article class="language-card" lang="ja">
+                        <p class="language-label">日本語</p>
+                        <ul class="plain-list">
+                            <li>カメラ映像、深度、疑似スペクトラム、音声、音響スペクトラム、気圧、磁場、加速度、振動解析、位置・方位、BLE識別子・信号強度、顔・姿勢検出結果は、原則として端末の一時メモリで処理し、測定履歴として保存しません。</li>
+                            <li>文字起こしと翻訳文は表示中だけ一時保持し、アプリ終了後には保持しません。翻訳処理は、必要なML Kit言語モデルを取得した後、端末上で行います。</li>
+                            <li>アプリの非公開設定領域には、BIO SCANのしきい値、気圧範囲、顔検出のオン／オフ、Trial使用時間、確認済みFULL ACCESS状態を保存します。Androidバックアップは無効で、通常はアプリのアンインストールにより削除されます。</li>
+                            <li>音声認識・翻訳の言語モデルは、ユーザー確認後に端末へダウンロードされ、Androidの音声認識サービスまたはML Kitによって管理されます。</li>
+                            <li>SNAPSHOTを実行した場合だけ、表示中の画面をPNGとして<code>Pictures/EXCORDER</code>へ保存します。RECORDを実行して画面共有とマイクを許可した場合だけ、画面とマイク音声をMP4として<code>Movies/EXCORDER</code>へ保存します。失敗した未完成ファイルは削除します。保存後の保持・削除・共有はユーザーが管理します。</li>
+                            <li>アプリは動作状態やエラーコードをAndroidのシステムログへ記録する場合がありますが、正確な座標、カメラフレーム、マイク音声、文字起こし本文、翻訳文、BLE識別子、購入トークンを意図的にログへ記録しません。</li>
+                        </ul>
+                    </article>
+                    <article class="language-card" lang="en">
+                        <p class="language-label">English</p>
+                        <ul class="plain-list">
+                            <li>Camera images, depth, simulated spectra, audio, acoustic spectra, pressure, magnetic fields, acceleration, vibration analysis, location and heading, BLE identifiers and signal strength, and face or pose results are processed primarily in temporary device memory and are not retained as measurement history.</li>
+                            <li>Transcription and translated text is held temporarily while displayed and is not retained after the app closes. Translation runs on the device after any required ML Kit language model has been downloaded.</li>
+                            <li>The app’s private settings storage contains BIO SCAN thresholds, pressure ranges, the face-detection toggle, Trial usage time, and the verified FULL ACCESS state. Android backup is disabled, and this data is normally removed when the app is uninstalled.</li>
+                            <li>Speech-recognition and translation language models are downloaded after user confirmation and are managed by the Android speech-recognition service or ML Kit.</li>
+                            <li>Only when the user activates SNAPSHOT is the displayed screen saved as a PNG in <code>Pictures/EXCORDER</code>. Only when the user activates RECORD and grants screen-sharing and microphone consent are the screen and microphone audio saved as an MP4 in <code>Movies/EXCORDER</code>. Incomplete files are removed if saving fails. The user controls retention, deletion, and sharing after saving.</li>
+                            <li>The app may write operational state or error codes to Android system logs, but it does not intentionally log exact coordinates, camera frames, microphone audio, transcript text, translated text, BLE identifiers, or purchase tokens.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--peach" aria-labelledby="services-title">
+            <div class="section-content">
+                <h2 class="section-heading" id="services-title">外部サービスと送信データ / External Services &amp; Data Transfers</h2>
+                <div class="bilingual-grid">
+                    <article class="language-card" lang="ja">
+                        <p class="language-label">日本語</p>
+                        <ul class="plain-list">
+                            <li><strong>MET Norway:</strong> 気温・湿度を取得するため、小数第4位に丸めた現在地の緯度・経度をHTTPSで直接送信します。応答は必要な期間だけメモリにキャッシュします。MET Norwayは、その条件に従い、IPアドレス、要求座標、リクエスト情報をログへ記録する場合があります。</li>
+                            <li><strong>Google Maps:</strong> 地図表示時に、表示範囲や現在地を含む地図リクエストがGoogleへ送信されます。Maps SDKは、端末・SDK情報、リクエストメタデータ、IPアドレス、SDK固有の仮名識別子、クラッシュ情報、パンやズーム等の地図操作を収集する場合があります。</li>
+                            <li><strong>Android音声認識サービス:</strong> ユーザーがVOICE DECODEを開始した場合、端末、Androidバージョン、選択された認識サービス、言語パックの状態によっては、マイク音声と言語設定がGoogleまたは端末で選択された認識サービスへ送信され、文字起こし結果が返される場合があります。利用可能な場合は端末内認識を優先します。送信先による音声の処理・保持には、その認識サービスのプライバシーポリシーが適用されます。</li>
+                            <li><strong>Google ML Kit:</strong> 翻訳モデルの取得に通信を使用します。ML Kit SDKは、端末・アプリ情報、SDKまたはモデル情報、仮名またはインストール単位の識別子、機能イベント、性能値、エラー情報を、診断と利用状況分析のためGoogleへ送信する場合があります。顔・姿勢検出と、モデル取得後の翻訳内容は端末内で処理します。</li>
+                            <li><strong>ARCore／Google Play開発者サービス（AR）:</strong> 対応確認、必要なコンポーネントの導入・更新、AR機能の提供および診断のためGoogleと通信します。Google Play開発者サービス（AR）は、Googleアカウントまたは端末に関連する識別子、ARCore APIの利用状況、アプリの動作情報、性能・診断情報等を収集する場合があります。EXCORDERではARCore Geospatial APIおよびCloud Anchorsを使用せず、AR映像を開発者のサーバーへ送信しません。</li>
+                            <li><strong>Google Play Billing:</strong> FULL ACCESSの購入、確認、承認、復元のため、商品ID、購入状態、購入トークン等をGoogle Playとの間で処理します。支払情報とGoogleアカウントはGoogleが管理し、アプリはカード番号を受け取りません。購入トークンを開発者のサーバーへ送信せず、端末には確認済み利用権の真偽値だけを保存します。</li>
+                        </ul>
+                        <p>外部通信は各機能の提供に必要な範囲で行われ、開発者が運営するサーバーを経由しません。各サービスによる処理には各提供者の規約とプライバシーポリシーが適用されます。Googleによる処理には<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>、気象データにはMET Norwayの<a href="https://api.met.no/doc/TermsOfService">利用条件</a>と<a href="https://api.met.no/doc/License">ライセンス</a>が適用されます。</p>
+                    </article>
+                    <article class="language-card" lang="en">
+                        <p class="language-label">English</p>
+                        <ul class="plain-list">
+                            <li><strong>MET Norway:</strong> To retrieve temperature and humidity, latitude and longitude rounded to four decimal places are sent directly over HTTPS. Responses are cached in memory only as long as needed. Under its terms, MET Norway may log the IP address, requested coordinates, and request information.</li>
+                            <li><strong>Google Maps:</strong> When a map is displayed, map requests including the visible area and current location are sent to Google. The Maps SDK may collect device and SDK information, request metadata, IP address, an SDK-specific pseudonymous identifier, crash information, and map interactions such as panning and zooming.</li>
+                            <li><strong>Android speech-recognition service:</strong> When the user starts VOICE DECODE, microphone audio and language settings may be sent to Google or the recognition service selected on the device, and transcript results returned, depending on the device, Android version, selected service, and language-pack availability. On-device recognition is preferred when available. Processing and retention by the destination service are governed by that recognition service’s privacy policy.</li>
+                            <li><strong>Google ML Kit:</strong> Network access is used to download translation models. The ML Kit SDK may send device and app information, SDK or model information, pseudonymous or per-installation identifiers, feature events, performance metrics, and error information to Google for diagnostics and usage analytics. Face and pose detection, and translation content after model download, are processed on the device.</li>
+                            <li><strong>ARCore / Google Play Services for AR:</strong> Communicates with Google for compatibility checks, installation or updates of required components, AR functionality, and diagnostics. Google Play Services for AR may collect identifiers associated with the Google account or device, ARCore API usage, app activity, performance metrics, and diagnostic information. EXCORDER does not use the ARCore Geospatial API or Cloud Anchors and does not send AR imagery to the developer’s server.</li>
+                            <li><strong>Google Play Billing:</strong> Product IDs, purchase state, purchase tokens, and related information are processed with Google Play to purchase, verify, acknowledge, and restore FULL ACCESS. Google manages payment information and the Google account; the app does not receive card numbers. Purchase tokens are not sent to the developer’s server, and only a Boolean verified-entitlement state is stored on the device.</li>
+                        </ul>
+                        <p>External communication occurs only as needed to provide the relevant feature and does not pass through a server operated by the developer. Each provider’s terms and privacy policy apply to its processing. Google processing is subject to the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Weather data is subject to the MET Norway <a href="https://api.met.no/doc/TermsOfService">Terms of Service</a> and <a href="https://api.met.no/doc/License">license</a>.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--lavender" aria-labelledby="data-safety-title">
+            <div class="section-content">
+                <h2 class="section-heading" id="data-safety-title">Google Play データ セーフティとの対応 / Google Play Data Safety Alignment</h2>
+                <div class="bilingual-grid">
+                    <article class="language-card" lang="ja">
+                        <p class="language-label">日本語</p>
+                        <p>Google Playのデータ セーフティでは、Google Playの定義に従い、本アプリおよび組み込まれたSDKによるデータの収集、利用、共有について申告します。現在のAndroid版の実装は、次の区分で申告内容と対応します。</p>
+                        <ul class="plain-list">
+                            <li><strong>位置情報:</strong> 地図と気象を利用する場合に任意で収集。正確またはおおよその位置情報を、アプリ機能のため暗号化して送信し、開発者は位置履歴を保存しません。</li>
+                            <li><strong>音声:</strong> VOICE DECODEでネットワーク認識が使用される場合に限り、ユーザー操作により任意でリアルタイム送信。録音履歴を開発者は保存しません。認識サービス側の保持は、そのサービスのポリシーに従います。</li>
+                            <li><strong>写真・動画、カメラ・顔・姿勢データ:</strong> アプリまたは開発者のサーバーによる端末外収集は行いません。SNAPSHOTとRECORDはユーザー操作により端末へ保存されます。</li>
+                            <li><strong>購入履歴・利用権情報:</strong> Google Play Billingがアプリ機能と不正防止・コンプライアンスのため処理します。開発者のサーバーでは保存しません。</li>
+                            <li><strong>アプリの操作、アプリ情報・性能、端末またはその他のID、診断:</strong> Google MapsとML Kitを含むGoogle SDKまたはサービスが、サービス提供、分析、診断、不正防止・コンプライアンスのため収集する場合があります。</li>
+                            <li><strong>広告:</strong> 広告データの収集、広告目的の共有、広告目的のトラッキングは行いません。</li>
+                        </ul>
+                        <p>Google Play上の「共有」は、サービス提供者として処理する事業者への送信等が一定条件で除外される定義です。本ポリシーでは、その分類にかかわらず、実際に発生する外部送信先を上記に記載しています。</p>
+                    </article>
+                    <article class="language-card" lang="en">
+                        <p class="language-label">English</p>
+                        <p>Google Play Data Safety disclosures are completed according to Google Play definitions and include relevant data handling by the app and its included SDKs. The current Android implementation aligns with the declaration categories as follows:</p>
+                        <ul class="plain-list">
+                            <li><strong>Location:</strong> optionally collected when maps or weather are used. Precise or approximate location is encrypted in transit for app functionality, and the developer does not retain location history.</li>
+                            <li><strong>Audio:</strong> optionally transmitted in real time following a user action only when network speech recognition is used in VOICE DECODE. The developer does not retain recording history; retention by the recognition service is governed by that service’s policy.</li>
+                            <li><strong>Photos and videos; camera, face, and pose data:</strong> not collected off device by the app or the developer’s server. SNAPSHOT and RECORD save locally following a user action.</li>
+                            <li><strong>Purchase history and entitlement information:</strong> processed by Google Play Billing for app functionality and fraud prevention, security, and compliance. It is not stored on the developer’s server.</li>
+                            <li><strong>App interactions, app information and performance, device or other IDs, and diagnostics:</strong> may be collected by Google SDKs or services, including Google Maps and ML Kit, for service delivery, analytics, diagnostics, and fraud prevention, security, and compliance.</li>
+                            <li><strong>Advertising:</strong> no advertising-data collection, advertising-purpose sharing, or advertising tracking is performed.</li>
+                        </ul>
+                        <p>Google Play defines “sharing” with certain exclusions, including some transfers to service providers. Regardless of that formal classification, this policy identifies the external destinations to which data is actually transmitted.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--blue" aria-labelledby="third-parties-title">
+            <div class="section-content">
+                <h2 class="section-heading" id="third-parties-title">追跡・第三者提供・削除 / Tracking, Third Parties &amp; Deletion</h2>
+                <div class="bilingual-grid">
+                    <article class="language-card" lang="ja">
+                        <p class="language-label">日本語</p>
+                        <ul class="plain-list">
+                            <li>広告目的のトラッキングを行わず、データを販売しません。</li>
+                            <li>開発者が運営するサーバーへ測定データ、位置履歴、音声、画像、文字起こし、顔・姿勢データ、購入情報を送信しません。</li>
+                            <li>外部サービスへの送信は「外部サービスと送信データ」に記載した機能提供の範囲で行われます。</li>
+                            <li>アカウント登録機能はありません。アプリの設定と端末内利用権キャッシュはアンインストールにより削除できます。保存した画像・動画、Google Playの購入記録、システムまたはGoogleが管理する言語モデルは別に管理され、必要に応じてユーザーが端末設定、Google Play、または各サービスから削除・管理します。</li>
+                        </ul>
+                    </article>
+                    <article class="language-card" lang="en">
+                        <p class="language-label">English</p>
+                        <ul class="plain-list">
+                            <li>The app does not track users for advertising or sell data.</li>
+                            <li>Measurement data, location history, audio, images, transcripts, face or pose data, and purchase information are not sent to a server operated by the developer.</li>
+                            <li>Transfers to external services are limited to the feature-delivery purposes described under “External Services &amp; Data Transfers.”</li>
+                            <li>The app has no account-registration feature. Uninstalling the app deletes its settings and local entitlement cache. Saved images and videos, Google Play purchase records, and language models managed by the system or Google are managed separately and can be deleted or managed through the device, Google Play, or the relevant service as applicable.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--orange" aria-labelledby="changes-title">
+            <div class="section-content">
+                <h2 class="section-heading" id="changes-title">変更・お問い合わせ / Changes &amp; Contact</h2>
+                <div class="bilingual-grid">
+                    <article class="language-card" lang="ja">
+                        <p class="language-label">日本語</p>
+                        <p>アプリ、使用するSDK、Google Playの申告内容、法令または関連要件の変更に応じて、本ポリシーを改定する場合があります。重要な変更がある場合は、このページと最終更新日を更新します。</p>
+                        <p>本ポリシーに関するお問い合わせ:</p>
+                        <a class="contact-link" href="mailto:excorder.app@gmail.com?subject=EXCORDER%20Android%20Privacy">excorder.app@gmail.com</a>
+                    </article>
+                    <article class="language-card" lang="en">
+                        <p class="language-label">English</p>
+                        <p>This policy may be revised to reflect changes to the app, included SDKs, Google Play disclosures, applicable laws, or related requirements. Material changes will be published on this page with an updated revision date.</p>
+                        <p>Questions about this policy:</p>
+                        <a class="contact-link" href="mailto:excorder.app@gmail.com?subject=EXCORDER%20Android%20Privacy">excorder.app@gmail.com</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Copyright © 2026 Mamiya. All rights reserved.</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+            <a href="../support.html">EXCORDER Support</a>
+            <a href="../privacy.html">iOS Privacy Policy</a>
+            <a href="../terms.html">Terms of Service</a>
+            <a href="https://x.com/_NorthFox" target="_blank" rel="noopener noreferrer" aria-label="NorthFox on X">X</a>
+            <a href="https://www.instagram.com/_northfox_/" target="_blank" rel="noopener noreferrer" aria-label="NorthFox on Instagram">Instagram</a>
+            <a href="https://www.tiktok.com/@_northfox" target="_blank" rel="noopener noreferrer" aria-label="NorthFox on TikTok">TikTok</a>
+        </nav>
+    </footer>
+</body>
+</html>
